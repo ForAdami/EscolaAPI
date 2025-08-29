@@ -2,6 +2,23 @@
 
 API RESTful para cadastro de Alunos e Professores usando Node.js, Express e Prisma + PostgreSQL.
 
+escola-api/
+├── prisma/
+│ └── schema.prisma
+├── src/
+│ ├── controllers/
+│ │ ├── alunoController.js
+│ │ └── professorController.js
+│ ├── routes/
+│ │ ├── alunoRoutes.js
+│ │ └── professorRoutes.js
+│ └── server.js
+├── .env.example
+├── index.html
+├── package.json
+├── .gitignore
+└── README.md
+
 ## Requisitos
 - Node.js v16+
 - PostgreSQL
