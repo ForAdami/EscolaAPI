@@ -4,20 +4,20 @@ API RESTful para cadastro de Alunos e Professores usando Node.js, Express e Pris
 
 escola-api/
 ├── prisma/
-│ └── schema.prisma
+│ └── schema.prisma # Definição do banco de dados (Prisma ORM)
 ├── src/
 │ ├── controllers/
-│ │ ├── alunoController.js
-│ │ └── professorController.js
+│ │ ├── alunoController.js # Lógica de CRUD para Alunos
+│ │ └── professorController.js # Lógica de CRUD para Professores
 │ ├── routes/
-│ │ ├── alunoRoutes.js
-│ │ └── professorRoutes.js
-│ └── server.js
-├── .env.example
-├── index.html
-├── package.json
-├── .gitignore
-└── README.md
+│ │ ├── alunoRoutes.js # Rotas relacionadas a Alunos
+│ │ └── professorRoutes.js # Rotas relacionadas a Professores
+│ └── server.js # Arquivo principal do servidor Express
+├── .env.example # Exemplo de variáveis de ambiente
+├── index.html # Página inicial simples para teste
+├── package.json # Configuração do projeto Node.js
+├── .gitignore # Arquivos e pastas a serem ignorados pelo Git
+└── README.md # Documentação do projeto
 
 ## Requisitos
 - Node.js v16+
